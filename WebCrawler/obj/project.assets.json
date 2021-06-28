@@ -1,0 +1,175 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "chilkat-x64/9.5.0.87": {
+        "type": "package",
+        "compile": {
+          "lib/net461/ChilkatDotNet46.dll": {}
+        },
+        "runtime": {
+          "lib/net461/ChilkatDotNet46.dll": {}
+        }
+      },
+      "TurnerSoftware.RobotsExclusionTools/0.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TurnerSoftware.RobotsExclusionTools.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TurnerSoftware.RobotsExclusionTools.dll": {}
+        }
+      },
+      "TurnerSoftware.SitemapTools/0.6.0": {
+        "type": "package",
+        "dependencies": {
+          "TurnerSoftware.RobotsExclusionTools": "0.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/TurnerSoftware.SitemapTools.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/TurnerSoftware.SitemapTools.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "chilkat-x64/9.5.0.87": {
+      "sha512": "93FE0SmkNXmywli/si0BQgpVLhWrl5KMEnYW17oHQ395BzmqmbGkKfzJBtIDy0e9qN4FPQiD6SbCYSLZ0EXUkw==",
+      "type": "package",
+      "path": "chilkat-x64/9.5.0.87",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chilkat-x64.9.5.0.87.nupkg.sha512",
+        "chilkat-x64.nuspec",
+        "lib/net20/ChilkatDotNet2.dll",
+        "lib/net35/ChilkatDotNet2.dll",
+        "lib/net40/ChilkatDotNet4.dll",
+        "lib/net403/ChilkatDotNet4.dll",
+        "lib/net45/ChilkatDotNet45.dll",
+        "lib/net451/ChilkatDotNet45.dll",
+        "lib/net452/ChilkatDotNet45.dll",
+        "lib/net46/ChilkatDotNet46.dll",
+        "lib/net461/ChilkatDotNet46.dll",
+        "lib/net462/ChilkatDotNet46.dll",
+        "lib/net47/ChilkatDotNet47.dll",
+        "lib/net471/ChilkatDotNet47.dll",
+        "lib/net48/ChilkatDotNet48.dll"
+      ]
+    },
+    "TurnerSoftware.RobotsExclusionTools/0.5.0": {
+      "sha512": "q/FknJTxX+U50zzKF08IYUG9MxXTQA9ymL7NJGJ6P91wtGpgFGnsln2mOwkZpRmxpSIGRNg2d5ojz+g8Tw1nzg==",
+      "type": "package",
+      "path": "turnersoftware.robotsexclusiontools/0.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/netstandard2.0/TurnerSoftware.RobotsExclusionTools.dll",
+        "turnersoftware.robotsexclusiontools.0.5.0.nupkg.sha512",
+        "turnersoftware.robotsexclusiontools.nuspec"
+      ]
+    },
+    "TurnerSoftware.SitemapTools/0.6.0": {
+      "sha512": "JZZ6vwF6YPY2EwIMlektPV+RgN5OU4vmMI+q5Ovjb48dKV7ZMkafnw1+J0cyVAjHDbz3cok9Tg9tvh5uYXw9Qw==",
+      "type": "package",
+      "path": "turnersoftware.sitemaptools/0.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/netstandard2.0/TurnerSoftware.SitemapTools.dll",
+        "lib/netstandard2.1/TurnerSoftware.SitemapTools.dll",
+        "turnersoftware.sitemaptools.0.6.0.nupkg.sha512",
+        "turnersoftware.sitemaptools.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TurnerSoftware.SitemapTools >= 0.6.0",
+      "chilkat-x64 >= 9.5.0.87"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mrigo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+      "projectName": "WebCrawler",
+      "projectPath": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+      "packagesPath": "C:\\Users\\mrigo\\.nuget\\packages\\",
+      "outputPath": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "TurnerSoftware.SitemapTools": {
+            "target": "Package",
+            "version": "[0.6.0, )"
+          },
+          "chilkat-x64": {
+            "target": "Package",
+            "version": "[9.5.0.87, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"chilkat-x64 9.5.0.87\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "chilkat-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

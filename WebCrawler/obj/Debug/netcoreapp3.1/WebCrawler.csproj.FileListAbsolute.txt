@@ -1,0 +1,17 @@
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.exe
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.deps.json
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.json
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.dev.json
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.dll
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.pdb
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\ChilkatDotNet46.dll
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.AssemblyReference.cache
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.AssemblyInfoInputs.cache
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.AssemblyInfo.cs
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.CoreCompileInputs.cache
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.CopyComplete
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.dll
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.pdb
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.genruntimeconfig.cache
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.RobotsExclusionTools.dll
+D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.SitemapTools.dll

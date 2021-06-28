@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WebCrawler/1.0.0": {
+        "dependencies": {
+          "TurnerSoftware.SitemapTools": "0.6.0",
+          "chilkat-x64": "9.5.0.87"
+        },
+        "runtime": {
+          "WebCrawler.dll": {}
+        }
+      },
+      "chilkat-x64/9.5.0.87": {
+        "runtime": {
+          "lib/net461/ChilkatDotNet46.dll": {
+            "assemblyVersion": "9.5.0.87",
+            "fileVersion": "9.5.0.87"
+          }
+        }
+      },
+      "TurnerSoftware.RobotsExclusionTools/0.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/TurnerSoftware.RobotsExclusionTools.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "TurnerSoftware.SitemapTools/0.6.0": {
+        "dependencies": {
+          "TurnerSoftware.RobotsExclusionTools": "0.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/TurnerSoftware.SitemapTools.dll": {
+            "assemblyVersion": "0.6.0.0",
+            "fileVersion": "0.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebCrawler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "chilkat-x64/9.5.0.87": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-93FE0SmkNXmywli/si0BQgpVLhWrl5KMEnYW17oHQ395BzmqmbGkKfzJBtIDy0e9qN4FPQiD6SbCYSLZ0EXUkw==",
+      "path": "chilkat-x64/9.5.0.87",
+      "hashPath": "chilkat-x64.9.5.0.87.nupkg.sha512"
+    },
+    "TurnerSoftware.RobotsExclusionTools/0.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q/FknJTxX+U50zzKF08IYUG9MxXTQA9ymL7NJGJ6P91wtGpgFGnsln2mOwkZpRmxpSIGRNg2d5ojz+g8Tw1nzg==",
+      "path": "turnersoftware.robotsexclusiontools/0.5.0",
+      "hashPath": "turnersoftware.robotsexclusiontools.0.5.0.nupkg.sha512"
+    },
+    "TurnerSoftware.SitemapTools/0.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JZZ6vwF6YPY2EwIMlektPV+RgN5OU4vmMI+q5Ovjb48dKV7ZMkafnw1+J0cyVAjHDbz3cok9Tg9tvh5uYXw9Qw==",
+      "path": "turnersoftware.sitemaptools/0.6.0",
+      "hashPath": "turnersoftware.sitemaptools.0.6.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "fa8DgLhiR5jcADsTgPOWKbeOZ1nUvi6BR+u7jRwiHbHCWGbmXEbdBR9cqdjvHksCNtv4Y0wkcd532KpE5gk2ug==",
+  "success": true,
+  "projectFilePath": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrigo\\.nuget\\packages\\chilkat-x64\\9.5.0.87\\chilkat-x64.9.5.0.87.nupkg.sha512",
+    "C:\\Users\\mrigo\\.nuget\\packages\\turnersoftware.robotsexclusiontools\\0.5.0\\turnersoftware.robotsexclusiontools.0.5.0.nupkg.sha512",
+    "C:\\Users\\mrigo\\.nuget\\packages\\turnersoftware.sitemaptools\\0.6.0\\turnersoftware.sitemaptools.0.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"chilkat-x64 9.5.0.87\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "chilkat-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
