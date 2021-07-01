@@ -15,3 +15,20 @@ D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCraw
 D:\Работа\Ukad Group\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.genruntimeconfig.cache
 D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.RobotsExclusionTools.dll
 D:\Работа\Ukad Group\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.SitemapTools.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.exe
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.deps.json
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.json
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.runtimeconfig.dev.json
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\WebCrawler.pdb
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.RobotsExclusionTools.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\bin\Debug\netcoreapp3.1\TurnerSoftware.SitemapTools.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.AssemblyReference.cache
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.AssemblyInfoInputs.cache
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.AssemblyInfo.cs
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.CoreCompileInputs.cache
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.csproj.CopyComplete
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.dll
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.pdb
+C:\Users\mrigo\Documents\GitHub\WebCrawler\WebCrawler\obj\Debug\netcoreapp3.1\WebCrawler.genruntimeconfig.cache

@@ -8,18 +8,18 @@
     ".NETCoreApp,Version=v3.1": {
       "WebCrawler/1.0.0": {
         "dependencies": {
-          "TurnerSoftware.SitemapTools": "0.6.0",
-          "chilkat-x64": "9.5.0.87"
+          "HtmlAgilityPack": "1.11.34",
+          "TurnerSoftware.SitemapTools": "0.6.0"
         },
         "runtime": {
           "WebCrawler.dll": {}
         }
       },
-      "chilkat-x64/9.5.0.87": {
+      "HtmlAgilityPack/1.11.34": {
         "runtime": {
-          "lib/net461/ChilkatDotNet46.dll": {
-            "assemblyVersion": "9.5.0.87",
-            "fileVersion": "9.5.0.87"
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.34.0",
+            "fileVersion": "1.11.34.0"
           }
         }
       },
@@ -50,12 +50,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "chilkat-x64/9.5.0.87": {
+    "HtmlAgilityPack/1.11.34": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-93FE0SmkNXmywli/si0BQgpVLhWrl5KMEnYW17oHQ395BzmqmbGkKfzJBtIDy0e9qN4FPQiD6SbCYSLZ0EXUkw==",
-      "path": "chilkat-x64/9.5.0.87",
-      "hashPath": "chilkat-x64.9.5.0.87.nupkg.sha512"
+      "sha512": "sha512-LJyKMPuQVRi68RnPRmptSSJa1r3adpIfII/tfyMkismDhgmdS0i2ruOGF3Y7Ocxt4IfnhG76BNIa4dzMfR+KYw==",
+      "path": "htmlagilitypack/1.11.34",
+      "hashPath": "htmlagilitypack.1.11.34.nupkg.sha512"
     },
     "TurnerSoftware.RobotsExclusionTools/0.5.0": {
       "type": "package",

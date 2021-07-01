@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
+    "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
   },
   "projects": {
-    "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
+    "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectUniqueName": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "projectName": "WebCrawler",
-        "projectPath": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectPath": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "packagesPath": "C:\\Users\\mrigo\\.nuget\\packages\\",
-        "outputPath": "D:\\Работа\\Ukad Group\\WebCrawler\\WebCrawler\\obj\\",
+        "outputPath": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,13 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.34, )"
+            },
             "TurnerSoftware.SitemapTools": {
               "target": "Package",
               "version": "[0.6.0, )"
-            },
-            "chilkat-x64": {
-              "target": "Package",
-              "version": "[9.5.0.87, )"
             }
           },
           "imports": [

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HtmlAgilityPack;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -19,12 +20,9 @@ namespace WebCrawler
             Uri inputUrl = null;
             while (!Uri.TryCreate(Console.ReadLine(), UriKind.Absolute, out inputUrl))
                 Console.WriteLine("Enter valid URL:");
-            
-            string domain = inputUrl.GetLeftPart(UriPartial.Authority);
-            Console.WriteLine($"Domain URL - {domain}");
 
             Console.WriteLine("\nCrawling web pages...");
-            var crawlingLinks = GetCrawlingLinks(domain);
+            var crawlingLinks = GetCrawlingLinks(inputUrl);
             var mergedLinks = crawlingLinks;
             Console.WriteLine($"Total Urls found by crawling: {crawlingLinks.Count}");
 
@@ -34,7 +32,6 @@ namespace WebCrawler
             {
                 Console.WriteLine($"Total Urls found from sitemap.xml: {sitemapLinks.Count}");
                 mergedLinks = mergedLinks.Union(sitemapLinks).ToList();
-                //mergedLinks = mergedLinks.Union(sitemapLinks).Take(100).ToList();
             }
             else
                 Console.WriteLine("Sitemap.xml is not found.");
@@ -63,30 +60,38 @@ namespace WebCrawler
                 Console.WriteLine($"{i + 1}) {sortedLinks[i]}\t{timings[i]}");
         }
 
-        public static List<string> GetCrawlingLinks(string domain)
+        public static List<string> GetCrawlingLinks(Uri inputUrl)
         {
-            var crawlingLinks = new List<string>();
-            Chilkat.Spider crawler = new Chilkat.Spider();
-            Chilkat.StringArray seedUrls = new Chilkat.StringArray();
-            seedUrls.Append(domain);
-
-            crawler.AddAvoidOutboundLinkPattern("*?id=*");
-            crawler.AddAvoidOutboundLinkPattern("*?do=*");
-            crawler.AddAvoidOutboundLinkPattern("*.mypages.*");
-            crawler.AddAvoidOutboundLinkPattern("*.personal.*");
-            crawler.AddAvoidOutboundLinkPattern("*.comcast.*");
-            crawler.AddAvoidOutboundLinkPattern("*.aol.*");
-            crawler.AddAvoidOutboundLinkPattern("*~*");
-
-            while (seedUrls.Count > 0)
+            var foundLinks = GetLinksFromHtml(inputUrl);
+            var crawledPages = new List<string>() { inputUrl.ToString() };
+            string domain = inputUrl.GetLeftPart(UriPartial.Authority);
+            for (int i = 0; i < foundLinks.Count; i++)
             {
-                string url = seedUrls.Pop();
-                crawler.Initialize(url);
-
-                for (bool success = crawler.CrawlNext(); success; success = crawler.CrawlNext())
-                    crawlingLinks.Add(crawler.LastUrl);
+                if (!crawledPages.Contains(foundLinks[i]))
+                {
+                    crawledPages.Add(foundLinks[i]);
+                    foundLinks = foundLinks.Union(GetLinksFromHtml(new Uri(foundLinks[i])).Where(s => s.StartsWith(domain))).ToList();
+                    //if (foundLinks.Count > 1000) return foundLinks;
+                }
             }
-            return crawlingLinks.Distinct().ToList();
+            return foundLinks;
+        }
+
+        public static List<string> GetLinksFromHtml(Uri inputUrl)
+        {
+            var regex = new Regex("^http(s)?://" + inputUrl.Host, RegexOptions.IgnoreCase);
+            var doc = new HtmlWeb().Load(inputUrl);
+
+            return doc.DocumentNode
+                .Descendants("a")
+                .Select(a =>
+                {
+                    var val = a.GetAttributeValue("href", string.Empty);
+                    return val.StartsWith("/") ? inputUrl.GetLeftPart(UriPartial.Authority) + val : val;
+                })
+                .Distinct()
+                .Where(u => !string.IsNullOrEmpty(u) && regex.IsMatch(u))
+                .ToList();
         }
 
         public static async Task<List<string>> GetSitemapLinksAsync(Uri inputUrl)
