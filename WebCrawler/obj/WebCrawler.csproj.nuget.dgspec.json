@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
+    "C:\\Users\\mrigo\\source\\repos\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
+    "C:\\Users\\mrigo\\source\\repos\\WebCrawler\\WebCrawler\\WebCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectUniqueName": "C:\\Users\\mrigo\\source\\repos\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "projectName": "WebCrawler",
-        "projectPath": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
+        "projectPath": "C:\\Users\\mrigo\\source\\repos\\WebCrawler\\WebCrawler\\WebCrawler.csproj",
         "packagesPath": "C:\\Users\\mrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrigo\\Documents\\GitHub\\WebCrawler\\WebCrawler\\obj\\",
+        "outputPath": "C:\\Users\\mrigo\\source\\repos\\WebCrawler\\WebCrawler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mrigo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
